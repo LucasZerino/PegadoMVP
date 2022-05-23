@@ -460,6 +460,14 @@ ul {
   z-index: 91;
 }
 
+
+
+.logo{
+  position: absolute; 
+  width: 114px;
+  top: 5px;
+}
+
 .main-menu-wrapper {
   position: relative;
   display: block;
