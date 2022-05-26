@@ -24,9 +24,9 @@
   --conult-gray-rgb: 122, 131, 139;
   --conult-white: #ffffff;
   --conult-white-rgb: 255, 255, 255;
-  --conult-black: #00294b;
+  --conult-black: #282460;
   --conult-black-rgb: 0, 41, 75;
-  --conult-base: #0575bc;
+  --conult-base: #F8951D;
   --conult-base-rgb: 5, 117, 188;
 }
 
@@ -3756,7 +3756,7 @@ ul {
 .site-footer__top-newsletter {
   position: relative;
   display: block;
-  background-color: #002442;
+  background-color: #3b3779;
   padding: 43px 50px 50px;
   margin-top: 60px;
 }
@@ -5900,25 +5900,10 @@ ul {
 .feature-three__icon {
   position: relative;
   display: inline-block;
-  z-index: 1;
-}
-
-.feature-three__icon:before {
-  position: absolute;
-  top: 0;
-  right: -15px;
-  content: "";
-  height: 38px;
-  width: 38px;
-  background-color: #e5e9ed;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
   z-index: -1;
 }
 
-.feature-three__single:hover .feature-three__icon:before {
-  background-color: #1a3f5d;
-}
+
 
 .feature-three__icon span {
   position: relative;
@@ -7773,4 +7758,8 @@ ul {
 .contact-page__form .comment-form__btn {
   margin: 20px auto 0;
   display: block;
+}
+
+.pegadologo{
+  border-radius: 10px;
 }
