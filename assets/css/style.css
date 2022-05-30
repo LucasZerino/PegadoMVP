@@ -17,8 +17,11 @@
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/
+
+@import url('../Fonts/Gotham-Font/Gotham-Bold.otf');
+
 :root {
-  --conult-font: "DM Sans", sans-serif;
+  --conult-font: "Gotham", sans-serif;
   --conult-reey-font: "reeyregular";
   --conult-gray: #7a838b;
   --conult-gray-rgb: 122, 131, 139;
@@ -625,6 +628,7 @@ ul {
 .stricky-header .main-menu__list ul {
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
   list-style-type: none;
   align-items: center;
   display: none;
@@ -743,8 +747,8 @@ ul {
   line-height: 30px;
   color: var(--conult-black);
   text-transform: capitalize;
-  letter-spacing: 0;
-  font-weight: 500;
+  letter-spacing: 2;
+  font-weight: 700;
   display: flex;
   padding-left: 20px;
   padding-right: 20px;
@@ -1068,6 +1072,8 @@ ul {
 .main-menu-three__wrapper {
   position: relative;
   display: block;
+  font-family: 'Gotham', sans-serif;
+  font-weight: 700;
 }
 
 .main-menu-three__wrapper-logo {
