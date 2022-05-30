@@ -152,6 +152,7 @@ ul {
 
 .thm-btn:hover {
   color: var(--conult-white);
+  cursor: pointer;
 }
 
 .thm-btn:after {
@@ -1696,7 +1697,7 @@ ul {
   background-position: center;
   transform: scale(1);
   opacity: 0.3;
-  background-color: #002442;
+  background-color: #282460;
   background-blend-mode: luminosity;
   transition: transform 7000ms ease, opacity 1500ms ease-in;
   z-index: 1;
@@ -1985,6 +1986,7 @@ ul {
   left: 0;
   bottom: 0;
   z-index: 1;
+  opacity: 80%;
 }
 
 .main-slider-three-shape img {

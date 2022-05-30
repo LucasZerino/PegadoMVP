@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pegado Seguro ||</title>
     <!-- favicons Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
@@ -43,10 +45,49 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 
 <body>
+    <div class="containerForm" id="formulario">
+        <div class="close">
+            <i onclick="fechar()" class="fas fa-times"></i>
+        </div>
+		<div class="login-content">
+			<form action="index.html">
+                <h1 class="contato">CONTATO<br></h1>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Nome</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-envelope"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Email</h5>
+           		    	<input type="email" class="input">
+            	   </div>
+            	</div>
+                <div class="input-div pass">
+                    <div class="i"> 
+                         <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="div">
+                         <h5>Telefone/Whatsapp</h5>
+                         <input type="text" class="input">
+                 </div>
+              </div>
+            	<input type="submit" class="btn" value="Enviar">
+            </form>
+        </div>
+    </div>
     <div class="preloader">
         <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" />
     </div>
@@ -114,19 +155,12 @@
                                 <div class="col-xl-7">
                                     <div class="main-slider__content">
                                         <h2>Pegado Seguros <br> Seguradora</h2>
-                                        <p>Veniam quis nostrud exercitation llamco laboris nis aliquip conseqa <br> rure
-                                            dolorn repreh derit luptate velit excepteur.</p>
+                                        <p>Quer economizar no seu Plano de Saúde?
+                                            A nossa corretora traz esse benefício pra você! Clique em simular plano 
+                                            e saiba na hora o quanto você pode economizar no seu Plano de Saúde!</p>
                                         <div class="main-slider-three__bottom">
-                                            <a href="sobre.html" class="thm-btn main-slider-three__btn">Simular plano</a>
+                                            <a onclick="abrir()" class="thm-btn main-slider-three__btn">Simular plano</a>
                                             <div class="main-slider-three__video">
-                                                <div class="main-slider-three__video-link">
-                                                    <a href="video"
-                                                        class="video-popup">
-                                                        <div class="main-slider-three__video-icon">
-                                                            <span class="fas fa-play"></span>
-                                                        </div>
-                                                    </a>
-                                                </div>
                                                 <h5 class="main-slider-three__video-text">Pegado Seguros</h5>
                                             </div>
                                         </div>
@@ -148,19 +182,12 @@
                                 <div class="col-xl-7">
                                     <div class="main-slider__content">
                                         <h2>Pegado Seguros <br> Seguradora</h2>
-                                        <p>Veniam quis nostrud exercitation llamco laboris nis aliquip conseqa <br> rure
-                                            dolorn repreh derit luptate velit excepteur.</p>
+                                        <p>Quer economizar no seu Plano de Saúde?
+                                            A nossa corretora traz esse benefício pra você! Clique em simular plano 
+                                            e saiba na hora o quanto você pode economizar no seu Plano de Saúde!</p>
                                         <div class="main-slider-three__bottom">
-                                            <a href="sobre.html" class="thm-btn main-slider-three__btn">Simular plano</a>
+                                            <a onclick="abrir()" class="thm-btn main-slider-three__btn">Simular plano</a>
                                             <div class="main-slider-three__video">
-                                                <div class="main-slider-three__video-link">
-                                                    <a href="video"
-                                                        class="video-popup">
-                                                        <div class="main-slider-three__video-icon">
-                                                            <span class="fas fa-play"></span>
-                                                        </div>
-                                                    </a>
-                                                </div>
                                                 <h5 class="main-slider-three__video-text">Pegado Seguro</h5>
                                             </div>
                                         </div>
@@ -182,19 +209,12 @@
                                 <div class="col-xl-7">
                                     <div class="main-slider__content">
                                         <h2>Pegado Seguros <br> Seguradora</h2>
-                                        <p>Veniam quis nostrud exercitation llamco laboris nis aliquip conseqa <br> rure
-                                            dolorn repreh derit luptate velit excepteur.</p>
+                                        <p>Quer economizar no seu Plano de Saúde?
+                                            A nossa corretora traz esse benefício pra você! Clique em simular plano 
+                                            e saiba na hora o quanto você pode economizar no seu Plano de Saúde!</p>
                                         <div class="main-slider-three__bottom">
-                                            <a href="sobre.html" class="thm-btn main-slider-three__btn">Simular plano</a>
+                                            <a onclick="abrir()" class="thm-btn main-slider-three__btn">Simular plano</a>
                                             <div class="main-slider-three__video">
-                                                <div class="main-slider-three__video-link">
-                                                    <a href="video"
-                                                        class="video-popup">
-                                                        <div class="main-slider-three__video-icon">
-                                                            <span class="fas fa-play"></span>
-                                                        </div>
-                                                    </a>
-                                                </div>
                                                 <h5 class="main-slider-three__video-text">Pegado Seguro</h5>
                                             </div>
                                         </div>
@@ -239,7 +259,7 @@
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <div class="text">
-                                        <p>Nsectetur cing elit.</p>
+                                        <p>Seguro auto.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -247,7 +267,7 @@
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <div class="text">
-                                        <p>Suspe ndisse suscip sagits leo.</p>
+                                        <p>Seguro de vida.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -255,7 +275,7 @@
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <div class="text">
-                                        <p> Entum estibulum dignis posue.</p>
+                                        <p>Seguro viagem.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -263,7 +283,7 @@
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <div class="text">
-                                        <p>You are going to use a pasge.</p>
+                                        <p>Seguro residencial.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -338,9 +358,9 @@
                             <div class="services-two_icon">
                                 <span class="icon-creative"></span>
                             </div>
-                            <h3 class="services-two__title"><a href="audit-marketing.html">Plano <br> Família</a>
+                            <h3 class="services-two__title"><a onclick="abrir()">Seguro Auto</a>
                             </h3>
-                            <p class="services-two__text">Lorem ipsum is are many variations of pass of majority.</p>
+                            <p class="services-two__text">Um seguro completo que vai muito além do veículo, aqui você resolve tudo sem sair do sofá.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -349,8 +369,8 @@
                             <div class="services-two_icon">
                                 <span class="icon-analysis"></span>
                             </div>
-                            <h3 class="services-two__title"><a href="audit-marketing.html">Plano <br> Empresarial</a></h3>
-                            <p class="services-two__text">Lorem ipsum is are many variations of pass of majority.</p>
+                            <h3 class="services-two__title"><a onclick="abrir()">Seguro Vida</a></h3>
+                            <p class="services-two__text">Proteger você e seus familiares, se um imprevisto acontecer, é mais simples do que você imagina.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
@@ -359,9 +379,9 @@
                             <div class="services-two_icon">
                                 <span class="icon-business"></span>
                             </div>
-                            <h3 class="services-two__title"><a href="banking-advising.html">Seguro <br> de Vida</a>
+                            <h3 class="services-two__title"><a onclick="abrir()">Seguro Viagem</a>
                             </h3>
-                            <p class="services-two__text">Lorem ipsum is are many variations of pass of majority.</p>
+                            <p class="services-two__text">A cobertura que você precisa para curtir sua viagem em qualquer lugar do mundo.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
@@ -370,8 +390,8 @@
                             <div class="services-two_icon">
                                 <span class="icon-global"></span>
                             </div>
-                            <h3 class="services-two__title"><a href="marketing-rules.html">Plano <br> Comercial</a></h3>
-                            <p class="services-two__text">Lorem ipsum is are many variations of pass of majority.</p>
+                            <h3 class="services-two__title"><a onclick="abrir()">Seguro Residencial</a></h3>
+                            <p class="services-two__text">Seu lar fica protegido e ainda recebe um cuidado todo especial.</p>
                         </div>
                     </div>
                 </div>
@@ -391,7 +411,7 @@
                         <div class="our-mission__inner">
                             <h2 class="our-mission__title">Nossa missão é proteger seu<br> <span> Negócio</span> &
                                 muito mais </h2>
-                            <a href="sobre.html" class="thm-btn our-mission__btn">Simular Plano</a>
+                            <a onclick="abrir()" class="thm-btn our-mission__btn">Simular Plano</a>
                         </div>
                     </div>
                 </div>
@@ -405,17 +425,21 @@
             <div class="container">
                 <div class="we-improve__inner">
                     <div class="section-title text-left">
-                        <span class="section-title__tagline">Profissionais capacitados</span>
-                        <h2 class="section-title__title">Melhoramos os negócios</h2>
+                        <span class="section-title__tagline">Para todos os tipos de empresas</span>
+                        <h2 class="section-title__title">Plano de saúde PME</h2>
                     </div>
-                    <p class="we-improve__text">Alteration in some form, lipsum is simply free text by injected humou or
-                        randomised words even believable.</p>
+                    <p class="we-improve__text">Os planos PME são direcionados 
+                        para empresas de pequeno e médio porte, 
+                        cadastradas como pessoas jurídicas (CNPJ) 
+                        ou microempreendedor (MEI). 
+                        As regras de aceitação permitem a inclusão de todos os sócios 
+                        ou não, dos funcionários e seus dependentes.</p>
                     <div class="we-improve__funded">
                         <div class="we-improve__funded-img">
                             <img src="assets/images/resources/fundo.png" alt="">
                         </div>
-                        <p class="we-improve__funded-content">Nossa empresa de consultoria e finanças criada em
-                            <span>1987</span></p>
+                        <p class="we-improve__funded-content">Damos suporte a pequenas e grandes empresas desde
+                            <span>2012</span></p>
                     </div>
                   
                 </div>
@@ -438,9 +462,8 @@
                                 <span class="icon-help"></span>
                             </div>
                             <div class="feature-three__content">
-                                <h4 class="feature-three__title">Obtenha aconselhamento profissional</h4>
-                                <p class="feature-three__text">There are many variations of available but the majority
-                                    have suffered alteration.</p>
+                                <h4 class="feature-three__title">Plano de Saúde pertinho de você?</h4>
+                                <p class="feature-three__text">Saiba na hora todos os Planos de Saúde que estão próximos da sua residência!</p>
                             </div>
                         </div>
                     </div>
@@ -452,8 +475,8 @@
                             </div>
                             <div class="feature-three__content">
                                 <h4 class="feature-three__title">Suporte 24 Horas</h4>
-                                <p class="feature-three__text">There are many variations of available but the majority
-                                    have suffered alteration.</p>
+                                <p class="feature-three__text">Temos corretores capacitados para tirar suas dúvidas a qualquer momento!
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -474,12 +497,10 @@
                         <div class="contact-one__left">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">Entre em contato</span>
-                                <h2 class="section-title__title">Fale com especialistas</h2>
+                                <h2 class="section-title__title">Fale conosco</h2>
                             </div>
-                            <p class="contact-one__text">It is a long established fact that a reader will be distracted
-                                by <br> the readable content of a page when looking at layout. Many<br> desktop
-                                publishing packages and web page editors now use <br> as their default model text.</p>
-                            <h2 class="contact-one__founder">Pegado Seguros <span>- Fundador</span></h2>
+                            <p class="contact-one__text">Nossos corretores são treinados pelas próprias companhias, e por isso sempre estão munidos de informações precisas para orientar nossos clientes na hora da contratação de um produto que realmente se enquadre em suas necessidades.</p>
+                            <h2 class="contact-one__founder">Pegado Seguros <span>- Corretora de seguros</span></h2>
                             <div class="contact-one__bottom">
                                 <div class="contact-one__bottom-img">
                                     <img src="assets/images/resources/contato.png" alt="">
@@ -490,7 +511,7 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            <p>Nsectetur cing elit.</p>
+                                            <p>10 anos de experiencia.</p>
                                         </div>
                                     </li>
                                     <li>
@@ -498,7 +519,7 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            <p>Suspe susc sagittis leo.</p>
+                                            <p>Até 30% mais barato.</p>
                                         </div>
                                     </li>
                                     <li>
@@ -506,7 +527,7 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            <p>Entum dignissim posuere.</p>
+                                            <p>Plano dental.</p>
                                         </div>
                                     </li>
                                     <li>
@@ -514,7 +535,7 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            <p>Donec ante vel sncus.</p>
+                                            <p>Plano empresarial.</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -617,7 +638,7 @@
                                             <div class="footer-widget__column footer-widget__contact clearfix">
                                                 <h3 class="footer-widget__title">Contato</h3>
                                                 <a href="mailto:emaildosuporte@suporte.com">emaildosuporte@suporte.com</a>
-                                                <p class="footer-widget__contact-text">Rua lago de natal <br> Natal. RN</p>
+                                                <p class="footer-widget__contact-text">Rua felipe camarão, 446 <br> Natal. RN</p>
                                             </div>
                                         </div>
                                     </div>
@@ -736,6 +757,7 @@
 
     <!-- template js -->
     <script src="assets/js/conult.js"></script>
+    <script src="assets/js/form.js"></script>
 </body>
 
 </html>

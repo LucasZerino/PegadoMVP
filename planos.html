@@ -43,10 +43,49 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 
 <body>
+    <div class="containerForm" id="formulario">
+        <div class="close">
+            <i onclick="fechar()" class="fas fa-times"></i>
+        </div>
+		<div class="login-content">
+			<form action="index.html">
+                <h1 class="contato">CONTATO<br></h1>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Nome</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-envelope"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Email</h5>
+           		    	<input type="email" class="input">
+            	   </div>
+            	</div>
+                <div class="input-div pass">
+                    <div class="i"> 
+                         <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="div">
+                         <h5>Telefone/Whatsapp</h5>
+                         <input type="text" class="input">
+                 </div>
+              </div>
+            	<input type="submit" class="btn" value="Enviar">
+            </form>
+        </div>
+    </div>
     <div class="preloader">
         <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" />
     </div>
@@ -117,11 +156,11 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="plano1.html">Plano 1</a></h3>
-                                <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                                <h3 class="services-one__title"><a href="#" >Seguro Auto</a></h3>
+                                <p class="services-one__text">Um seguro completo que vai muito além do veículo, aqui você resolve tudo sem sair do sofá.</p>
                                 <div class="services-one__bottom">
-                                    <a href="plano1.html" class="services-one__btn">Ver mais</a>
-                                    <a href="plano1.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                                    <a href="#" onclick="abrir()" class="services-one__btn">Contratar agora</a>
+                                    <a href="#" onclick="abrir()" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -138,11 +177,11 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="banking-advising.html">Plano 2</a></h3>
-                                <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                                <h3 class="services-one__title"><a href="#" onclick="abrir()">Seguro Vida</a></h3>
+                                <p class="services-one__text">Proteger você e seus familiares, se um imprevisto acontecer, é mais simples do que você imagina.</p>
                                 <div class="services-one__bottom">
-                                    <a href="banking-advising.html" class="services-one__btn">Ver mais</a>
-                                    <a href="banking-advising.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                                    <a href="#" onclick="abrir()" class="services-one__btn">Contratar agora</a>
+                                    <a href="#" onclick="abrir()" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -159,11 +198,11 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="marketing-rules.html">Plano 3</a></h3>
-                                <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                                <h3 class="services-one__title"><a href="#" onclick="abrir()">Seguro Viagem</a></h3>
+                                <p class="services-one__text">As coberturas que você precisa para curtir sua viagem em qualquer lugar do mundo.</p>
                                 <div class="services-one__bottom">
-                                    <a href="marketing-rules.html" class="services-one__btn">Ver mais</a>
-                                    <a href="marketing-rules.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                                    <a href="#" onclick="abrir()" class="services-one__btn">Contratar agora</a>
+                                    <a href="#" onclick="abrir()" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -180,11 +219,11 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="business-growth.html">Plano 4</a></h3>
-                                <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                                <h3 class="services-one__title"><a href="#" onclick="abrir()">Seguro Residencial</a></h3>
+                                <p class="services-one__text">Seja uma casa ou um apartamento, próprio ou alugado. Com o nosso Seguro Residencial seu lar fica protegido.</p>
                                 <div class="services-one__bottom">
-                                    <a href="business-growth.html" class="services-one__btn">Ver mais</a>
-                                    <a href="business-growth.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                                    <a href="#" onclick="abrir()" class="services-one__btn">Contratar agora</a>
+                                    <a href="#" onclick="abrir()" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -201,11 +240,11 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="audit-marketing.html">Plano 5</a></h3>
-                                <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                                <h3 class="services-one__title"><a href="#" onclick="abrir()">Seguro Empresarial</a></h3>
+                                <p class="services-one__text">O Seguro Empresarial garante a proteção na medida certa para pequenas, médias e grandes empresas.</p>
                                 <div class="services-one__bottom">
-                                    <a href="audit-marketing.html" class="services-one__btn">Ver mais</a>
-                                    <a href="audit-marketing.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                                    <a href="#" onclick="abrir()" class="services-one__btn">Contratar agora</a>
+                                    <a href="#" onclick="abrir()" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -222,11 +261,11 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="financial-advice.html">Plano 6</a></h3>
-                                <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                                <h3 class="services-one__title"><a href="#" onclick="abrir()">Previdência Privada</a></h3>
+                                <p class="services-one__text">Investir em planos de previdência é uma maneira inteligente de ter uma boa aposentadoria, proteger você e sua família e realizar seus projetos.</p>
                                 <div class="services-one__bottom">
-                                    <a href="financial-advice.html" class="services-one__btn">Ver mais</a>
-                                    <a href="financial-advice.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                                    <a href="#" onclick="abrir()" class="services-one__btn">Contratar agora</a>
+                                    <a href="#" onclick="abrir()" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -407,6 +446,7 @@
 
     <!-- template js -->
     <script src="assets/js/conult.js"></script>
+    <script src="assets/js/form.js"></script>
 </body>
 
 </html>
