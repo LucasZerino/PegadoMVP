@@ -338,17 +338,17 @@
       // initialize the plugin
       rules: {
         name: {
-          required: true
+     
         },
         email: {
-          required: true,
+        
           email: true
         },
         message: {
-          required: true
+      
         },
         subject: {
-          required: true
+        
         }
       },
       submitHandler: function (form) {
